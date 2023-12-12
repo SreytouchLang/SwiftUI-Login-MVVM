@@ -11,6 +11,10 @@
 		134684D62B27EDC100132DE1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 134684D52B27EDC100132DE1 /* ContentView.swift */; };
 		134684D82B27EDC200132DE1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 134684D72B27EDC200132DE1 /* Assets.xcassets */; };
 		134684DB2B27EDC200132DE1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 134684DA2B27EDC200132DE1 /* Preview Assets.xcassets */; };
+		134684E22B27EE5500132DE1 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 134684E12B27EE5500132DE1 /* LoginView.swift */; };
+		134684E42B27EE8B00132DE1 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 134684E32B27EE8B00132DE1 /* HomeView.swift */; };
+		134684E62B27EEA800132DE1 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 134684E52B27EEA800132DE1 /* HomeViewModel.swift */; };
+		134684EA2B27EEF100132DE1 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 134684E92B27EEF100132DE1 /* LoginViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +23,10 @@
 		134684D52B27EDC100132DE1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		134684D72B27EDC200132DE1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		134684DA2B27EDC200132DE1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		134684E12B27EE5500132DE1 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		134684E32B27EE8B00132DE1 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		134684E52B27EEA800132DE1 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		134684E92B27EEF100132DE1 /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +63,10 @@
 				134684D52B27EDC100132DE1 /* ContentView.swift */,
 				134684D72B27EDC200132DE1 /* Assets.xcassets */,
 				134684D92B27EDC200132DE1 /* Preview Content */,
+				134684E12B27EE5500132DE1 /* LoginView.swift */,
+				134684E32B27EE8B00132DE1 /* HomeView.swift */,
+				134684E52B27EEA800132DE1 /* HomeViewModel.swift */,
+				134684E92B27EEF100132DE1 /* LoginViewModel.swift */,
 			);
 			path = "SwiftUI-Login-MVVM";
 			sourceTree = "<group>";
@@ -137,7 +149,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				134684E22B27EE5500132DE1 /* LoginView.swift in Sources */,
+				134684E42B27EE8B00132DE1 /* HomeView.swift in Sources */,
+				134684EA2B27EEF100132DE1 /* LoginViewModel.swift in Sources */,
 				134684D62B27EDC100132DE1 /* ContentView.swift in Sources */,
+				134684E62B27EEA800132DE1 /* HomeViewModel.swift in Sources */,
 				134684D42B27EDC100132DE1 /* SwiftUI_Login_MVVMApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
